@@ -42,7 +42,7 @@ const Carousel = ({ items }) => {
             <p className="font-semibold text-xl lg:text-[24px] lg:leading-[41px]">
               {items[currentIndex].description}
             </p>
-            <div className="flex flex-col md:flex-row justify-between items-center">
+            <div className="flex flex-col md:flex-row justify-between lg:items-center">
               <div className="flex flex-col justify-center mt-10">
                 <h4 className="text-[28px] leading-[32px] font-bold o2">
                   {items[currentIndex].title}{" "}
@@ -54,7 +54,7 @@ const Carousel = ({ items }) => {
                   {items[currentIndex].designation}
                 </span>
               </div>
-              <div className="flex justify-end items-end gap-4 lg:gap-[4.6px] mt-10 lg:mt-0">
+              <div className="flex justify-center lg:justify-end items-end gap-4 lg:gap-[4.6px] mt-10 lg:mt-0">
                 <button
                   onClick={handlePrev}
                   className="px-6 py-4 rounded-[34px] border-[1.6px] border-[#111010] hover:border-[#EF001C] hover:bg-[#EF001C] hover:text-white"
