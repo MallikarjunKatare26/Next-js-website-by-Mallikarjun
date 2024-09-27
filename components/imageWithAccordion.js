@@ -17,21 +17,21 @@ const ImageWithAccordion = () => {
       question: "Innovative",
       answer:
         "Creation, ensuring your messages resonate worldwide. From concept to distribution, our platform serves as your strategic partner.",
-      imageUrl: "/images/Lissa-Smith.jpg",
+      imageUrl: "/images/img3.jpg",
       imageAlt: "Image 1",
     },
     {
       question: "Reliable",
       answer:
         "Creation, ensuring your messages resonate worldwide. From concept to distribution, our platform serves as your strategic partner.",
-      imageUrl: "/images/mask-group1.avif",
+      imageUrl: "/images/img2.jpg",
       imageAlt: "Image 2",
     },
     {
       question: "Quality",
       answer:
         "Creation, ensuring your messages resonate worldwide. From concept to distribution, our platform serves as your strategic partner.",
-      imageUrl: "/images/mask-group2.avif",
+      imageUrl: "/images/img1.jpg",
       imageAlt: "Image 3",
     },
   ];
