@@ -1,10 +1,11 @@
 "use client";
+
 import { useState } from "react";
 import React from "react";
 import Image from "next/image";
 
 const ImageWithAccordion = () => {
-  
+
   const [isOpen, setIsOpen] = useState(0);
 
   const toggleAccordion = (index) => {
@@ -43,7 +44,6 @@ const ImageWithAccordion = () => {
           alt={accordionData[isOpen]?.imageAlt || accordionData[0].imageAlt}
           height={451}
           width={484}
-          priority
         />
       </div>
       <div>
