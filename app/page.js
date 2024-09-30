@@ -40,7 +40,7 @@ export default function Home() {
   return (
     <>
       <div className="px-5 lg:px-[90px] w-full mt-9">
-        <h1 className="font-medium text-7xl lg:text-[104px] lg:leading-[112px] lg:w-[1046px]">
+        <h1 className="font-medium text-7xl lg:text-[104px] lg:leading-[112px] lg:w-[1046px] uppercase">
           We are a <br/> Global <span className="text-[#EF001C]">Production </span>
           AGENCY
         </h1>
