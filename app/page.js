@@ -41,7 +41,7 @@ export default function Home() {
     <>
       <div className="px-5 lg:px-[90px] w-full mt-9">
         <h1 className="font-medium text-7xl lg:text-[104px] lg:leading-[112px] lg:w-[1046px] uppercase">
-          We are a <br/> Global <span className="text-[#EF001C]">Production </span>
+          We are a <br/> Global <div className="text-[#EF001C] break-all md:break-normal">Production </div>
           AGENCY
         </h1>
         <div className="flex flex-col justify-center items-center gap-y-5 md:gap-y-0 lg:flex-row lg:justify-between lg:items-end">
